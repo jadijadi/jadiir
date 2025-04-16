@@ -14,7 +14,7 @@ The [Patreaon](#Patreon) is the best, if you are looking for the best method, ju
 
 ## Iranian
 ### Cafe
-Buy me a coffee at [Coffeete/jadi](https://www.coffeete.ir/jadi)
+Buy me a coffee at [Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
 
 ### Bank transfer
 - Card: 6219861816251416
