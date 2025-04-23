@@ -4,7 +4,7 @@ title="SUPPORT"
 
 # Support
 
-The [Patreaon](#Patreon) is the best, if you are looking for the best method, jump ther, unless you know what is even better ;)
+The [Patreaon](#Patreon) is the best, if you are looking for the best method, jump there, unless you know what is even better ;)
 
 ## Table of content
 
