@@ -1,5 +1,6 @@
 +++
 title="ABOUT"
+weight=5
 +++
 
 # About Jadi

@@ -1,5 +1,6 @@
 +++
 title="SUPPORT"
+weight=5
 +++
 
 # Support
@@ -8,7 +9,7 @@ The [Patreaon](#Patreon) is the best, if you are looking for the best method, ju
 
 ## Table of content
 
-* [0  Iranian](#Iranian)
+* [0.  Iranian](#Iranian)
 * [1. International](#International)
 * [2. Crypto](#Crypto)
 

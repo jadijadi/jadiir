@@ -1,5 +1,6 @@
 +++
 title="CONTACT"
+weight=2
 +++
 
 # Contact Jadi
