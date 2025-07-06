@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jadi</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+    integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/prompt.js"></script>
+  <script src="/js/keyboard.js"></script>
+  <script src="/js/tab.js"></script>
+  <script src="/js/commands.js"></script>
+  <script src="/js/config.js"></script><link rel="stylesheet" href="/css/base.css"><link rel="stylesheet" href="/css/page.css"></head><body onkeydown='exec(event)' style='background-image: url("/assets/background.jpg");'><header>
+      <h1>Jadi</h1>
+    </header>
+    <main>
+      <div class="files" id="files" tabindex="0">
+<ul><li class="file">
+    <span><a href='https://jadi.ir/links/'
+      tabindex="-2">  LINKS</a></span>
+  </li><li class="file">
+    <span><a href='https://jadi.ir/support/'
+      tabindex="-3">  SUPPORT</a></span>
+  </li><li class="file">
+    <span><a href='https://jadi.ir/readme/'
+      tabindex="-4">  INDEX</a></span>
+  </li><li class="file">
+    <span><a class="selected"href='https://jadi.ir/about/'
+      tabindex="-5">  ABOUT</a></span>
+  </li><li class="file">
+    <span><a href='https://jadi.ir/contact/'
+      tabindex="-6">  CONTACT</a></span>
+  </li>
+</ul>
+</div>
+      <div class="viewer page" id="viewer" tabindex="0">
+        <div class="tab">
+<ul id="tabs">
+</ul>
+
+
+</div>
+        <div class="content" id="content"><h1 id="about-jadi">About Jadi</h1>
+<p>Jadi is me.</p>
+
+        </div>
+      </div>
+      <div class="prompt" id="terminal"><input
+    type="text"
+    id="setter"
+    onkeydown="writeit(this, event);moveIt(this.value.length, event)"
+    onchange="writeit(this, event)"
+    onkeyup="writeit(this, event)"
+    onkeypress="writeit(this, event);"
+    >
+<label for="setter" id="writer"> </label><b class="cursor" id="cursor"></b></div>
+    </main>
+  </body>
+
+</html>
