@@ -38,6 +38,8 @@ Receiving Crypto is always a joy.. or the best Joy. If you want to support via c
 ##### BTC Lightning
 ![Support Jadi BTC Lightning](/images/crypto/lightning.jpg)
 lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkcmmhd3ukcctdwqervztskc4
+
+On Wallet of Satoshi: lowlylamp26@walletofsatoshi.com
 ##### BTC
 ![Support jadi bitcoin](/images/crypto/btc.png)
 13RLcLmTMydp8HbanydHmeBCeiNq4qWEYz 
