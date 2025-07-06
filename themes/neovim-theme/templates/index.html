@@ -1,0 +1,6 @@
+{%- extends "base.html" -%}
+
+{%- block content -%}
+{%- set page = get_page(path="readme.md") -%}
+{{ page.content | safe }}
+{%- endblock content -%}

@@ -1,0 +1,269 @@
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("/JetBrainsMonoNLNerdFont-Regular.ttf");
+}
+
+:root {
+  --bg-color: #1a1b26e0;
+  --font-color: #cdd6f4;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #dc8add var(--bg-color);
+}
+
+html {
+  color: var(--font-color);
+  font-family: JetBrainsMono;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .viewer {
+    position: relative;
+
+    .tab>ul {
+      margin-top: 3px !important;
+      margin-left: 0px !important;
+    }
+  }
+
+  .files {
+    height: inherit;
+  }
+
+  .section {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+
+    .section {
+      margin: 0;
+    }
+  }
+
+  .files {
+    box-shadow: 0px 3px 0px 0px var(--font-color);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .viewer {
+    width: 80%;
+    margin-left: 20%;
+    position: absolute;
+  }
+
+  .files {
+    position: sticky;
+    top: 0;
+    width: calc(20% - 10px);
+    height: calc(100% - 58px);
+
+    box-shadow: 3px 0px 0px 0px var(--font-color);
+    overflow-x: scroll;
+  }
+}
+
+header>h1 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+}
+
+main {
+  overflow: clip;
+  height: 90%;
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--bg-color);
+  backdrop-filter: blur(20px);
+
+  ul {
+    list-style-type: none;
+
+    a {
+      color: var(--font-color);
+      text-decoration: none;
+      display: inline;
+    }
+
+    a:hover,
+    .selected {
+      background-color: rgba(66, 135, 245, 0.5);
+    }
+  }
+
+  .viewer {
+    height: calc(100% - 58px);
+    overflow: clip;
+
+    .content {
+      padding-left: 20px;
+      height: calc(100% - 23px);
+      overflow-y: scroll;
+      margin-top: 3px;
+
+      img {
+        max-width: 90%;
+        max-height: 20%;
+        margin-right: 100vw;
+      }
+    }
+
+    .tab::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tab {
+      width: 100%;
+      height: 22px;
+      box-shadow: 0px 3px 0px 0px var(--font-color);
+      overflow-x: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      button {
+        all: unset;
+        cursor: pointer;
+        padding-left: 5px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0;
+        height: 100%;
+        margin-left: 3px;
+
+        li:hover,
+        .selected {
+          background-color: rgba(66, 135, 245, 0.5) !important;
+        }
+
+        li:not(.selected) a {
+          color: rgb(205, 214, 244, 0.5);
+        }
+
+        a:hover {
+          background-color: transparent;
+        }
+
+        a {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 50px;
+          display: block;
+        }
+
+        li {
+          padding: 0px 12px 0px 15px;
+          box-shadow: -3px 0px 0px 0px var(--font-color) inset;
+          color: rgba(205, 214, 244, 0.6) !important;
+          display: inherit;
+        }
+      }
+    }
+
+    .section {
+      padding: 0px;
+
+      .section {
+        a {
+          color: rgba(66, 135, 245, 1);
+        }
+      }
+    }
+  }
+
+  .file::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .files {
+    text-wrap: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    padding-left: 10px;
+    padding-top: 15px;
+
+    ul:not(:empty) {
+      padding-left: 0.2em;
+      margin: 0;
+    }
+
+    span {
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li>ul>.file {
+      padding-left: 2.5em;
+    }
+
+    a {
+      color: var(--font-color);
+    }
+  }
+
+  .prompt {
+    position: relative;
+    bottom: 0;
+    height: 55px;
+    box-shadow: 0px -3px 0px 0px var(--font-color);
+
+    font-size: 10px;
+    display: inline-flex;
+    width: 100%;
+    align-content: center;
+
+    .cursor {
+      opacity: 0.6;
+      width: 15px;
+      background-color: #fff;
+      margin-top: 2ex;
+      margin-bottom: 2ex;
+      position: relative;
+      display: none;
+    }
+
+    label {
+      font-size: 2em;
+      padding-left: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    input {
+      left: -1000px;
+      position: absolute;
+    }
+  }
+}
+
+footer>p {
+  margin-bottom: 0;
+}

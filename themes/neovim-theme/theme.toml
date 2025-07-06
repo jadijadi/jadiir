@@ -1,0 +1,10 @@
+name = "neovim"
+description = "A only keyboard theme with tabs and file browser"
+license = "MIT"
+homepage = "https://github.com/super-botman/zola-theme"
+demo = "https://super-botman.github.io"
+min_version = 0.4
+
+[author]
+name = "0xb0tm4n"
+homepage = "https://super-botman.github.io"
