@@ -1,0 +1,11 @@
+This is a Zola static site: https://www.getzola.org/
+
+To work:
+- zola serve
+
+To publish:
+
+- zola build
+- ghp-import public
+- git push origin gh-pages
+

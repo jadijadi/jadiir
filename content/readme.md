@@ -1,5 +1,6 @@
 +++
 title="INDEX"
+weight=4
 +++
 
 # Welcome to Jadi's page
