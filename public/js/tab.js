@@ -47,7 +47,10 @@ function del_tab(event) {
 
   tabs = JSON.parse(Cookies.get("tabs"));
   const new_tabs = tabs.filter((p) => p.link !== page.link);
-  tabs = new_tabs.length > 0 ? new_tabs : tabs;
+  if (new_tabs.length === 0) {
+    window.location.href = "/readme";
+  }
+  tabs = new_tabs;
   Cookies.set("tabs", JSON.stringify(tabs));
 
   if (!event || page.link == window.location.href) {
