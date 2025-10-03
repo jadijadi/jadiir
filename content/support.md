@@ -28,8 +28,12 @@ Um.. this is not that impressive to convince someone to become a Patreon! :D But
 ### BuyMeACoffee
 If you enjoyed / used / liked / or did anything else with my work and you wanted to give back but did not want to be a patreon, you can [BuyMeACoffee/jadijadi](https://buymeacoffee.com/jadijadi)
 
+### Wise
+By going to [Wise.com/pay/me/amiremadm](https://wise.com/pay/me/amiremadm).
+
 ### Paypal
-You can donate using the PayPal via my email address which is **jadijadi@gmail.com** .
+Note: I prefer Wise over Paypal, if it works for you
+You can donate using the PayPal via my email address which is **jadijadi@gmail.com**.
 
 ## Crypto
 
