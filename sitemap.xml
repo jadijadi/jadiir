@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://jadi.ir/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/about/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/contact/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/links/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/readme/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/support-donate/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/support/</loc>
-    </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jadi.space/about/</loc>
+  </url><url>
+    <loc>https://jadi.space/contact/</loc>
+  </url><url>
+    <loc>https://jadi.space/</loc>
+  </url><url>
+    <loc>https://jadi.space/links/</loc>
+  </url><url>
+    <loc>https://jadi.space/support/</loc>
+  </url>
 </urlset>
