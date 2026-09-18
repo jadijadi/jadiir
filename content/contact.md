@@ -2,7 +2,10 @@
 title = "Contact Jadi"
 +++
 
-Email: jadijadi@gmail.com
+- Email: [jadijadi@gmail.com](mailto:jadijadi@gmail.com)
+- Signal: [jadi.19](https://signal.me/#u/jadi.19)
+- Telegram: [@jadijadi](https://t.me/jadijadi)
+- Mastodon: [@jadi@bsd.cafe](https://bsd.cafe/@jadi)
 
 ## PGP public key
 

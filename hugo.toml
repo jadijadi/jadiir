@@ -12,6 +12,23 @@ enableRobotsTXT = true
   description = "Essential info about Jadi Mirmirani: contact, links and ways to support."
   mainSections = []
 
+[[params.social]]
+  name = "Mastodon"
+  icon = "simple:mastodon"
+  url = "https://bsd.cafe/@jadi"
+[[params.social]]
+  name = "Telegram"
+  icon = "simple:telegram"
+  url = "https://t.me/jadijadi"
+[[params.social]]
+  name = "Signal"
+  icon = "simple:signal"
+  url = "https://signal.me/#u/jadi.19"
+[[params.social]]
+  name = "Email"
+  icon = "mail"
+  url = "mailto:jadijadi@gmail.com"
+
 [[menu.main]]
   name = "Home"
   url = "/"
