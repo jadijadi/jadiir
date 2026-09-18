@@ -1,0 +1,32 @@
+{{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+{{ with $cv.education }}
+  <div class="jr__list jr-education__list">
+    {{ range . }}
+      <div class="jr__item jr-education__item">
+        <div class="jr__item-meta">
+          <div class="jr-education__area">{{ .area }} ({{ .studyType }})</div>
+          {{ partial "json-resume/duration.html" (dict "context" . "site" $.Site) }}
+          {{ if .institution }}
+            <div class="jr-education__institution">
+              {{ if .url }}
+                <a href="{{ .url }}">{{ .institution }}</a>
+              {{ else }}
+                <span>{{ .institution }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+        <p class="jr-education__score">
+          {{ .score }}
+        </p>
+        {{ with .courses }}
+          <ul class="jr-education__courses">
+            {{ range . }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

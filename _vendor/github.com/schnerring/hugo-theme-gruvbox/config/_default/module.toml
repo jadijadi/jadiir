@@ -1,0 +1,52 @@
+# Module debugging
+#replacements = "github.com/schnerring/hugo-mod-json-resume -> ../../hugo-mod-json-resume"
+[hugoVersion]
+  extended = true
+  min = "0.128.0"
+[[imports]]
+  path = "github.com/schnerring/hugo-mod-json-resume"
+  [[imports.mounts]]
+    source = "data"
+    target = "data"
+  [[imports.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[imports.mounts]]
+    source = "assets/css/json-resume.css"
+    target = "assets/css/critical/44-json-resume.css"
+[[mounts]]
+  # required by hugo-mod-json-resume
+  source = "node_modules/simple-icons/icons"
+  target = "assets/simple-icons"
+[[mounts]]
+  source = "assets"
+  target = "assets"
+[[mounts]]
+  source = "data"
+  target = "data"
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
+[[mounts]]
+  source = "static"
+  target = "static"
+[[mounts]]
+  source = "node_modules/prismjs"
+  target = "assets/prismjs"
+[[mounts]]
+  source = "node_modules/prism-themes/themes"
+  target = "assets/prism-themes"
+[[mounts]]
+  source = "node_modules/typeface-fira-code/files"
+  target = "static/fonts"
+[[mounts]]
+  source = "node_modules/typeface-roboto-slab/files"
+  target = "static/fonts"
+[[mounts]]
+  source = "node_modules/@tabler/icons/icons"
+  target = "assets/tabler-icons"
+[[mounts]]
+  # Add hugo_stats.json to Hugo's server watcher
+  # See https://gohugo.io/getting-started/configuration/#configure-cache-busters
+  source = "hugo_stats.json"
+  target = "assets/watching/hugo_stats.json"

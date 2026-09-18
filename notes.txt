@@ -1,13 +1,20 @@
-This is a Hugo static site (https://gohugo.io/) using the Archie theme (https://github.com/athul/archie).
+This is a Hugo static site (https://gohugo.io/).
 
-First checkout (theme is a git submodule):
+Several themes are kept in the repo while we decide which one to use:
+- gruvbox  https://github.com/schnerring/hugo-theme-gruvbox  (Hugo module, vendored in _vendor/, needs `npm install`)
+- archie   https://github.com/athul/archie                    (git submodule, themes/archie)
+- papermod https://github.com/adityatelange/hugo-PaperMod     (git submodule, themes/PaperMod)
+
+Shared config is hugo.toml; each theme has its own config-<theme>.toml.
+
+First checkout:
 - git submodule update --init --recursive
+- npm install            (only needed for gruvbox)
 
 To work:
-- hugo server
+- make serve THEME=gruvbox      (or archie / papermod)
 
 To publish:
+- make publish THEME=gruvbox    (= hugo build + ghp-import public + git push origin gh-pages)
 
-- hugo --cleanDestinationDir
-- ghp-import public
-- git push origin gh-pages
+Note: `hugo server` writes into public/ too, so always run the build right before publishing.

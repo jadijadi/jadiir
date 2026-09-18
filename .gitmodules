@@ -1,3 +1,6 @@
 [submodule "themes/archie"]
 	path = themes/archie
 	url = https://github.com/athul/archie.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

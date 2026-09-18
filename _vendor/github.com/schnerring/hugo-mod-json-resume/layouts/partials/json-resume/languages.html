@@ -1,0 +1,13 @@
+{{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+{{ with $cv.languages }}
+  <div class="jr__list jr-languages__list">
+    <ul>
+      {{ range . }}
+        <li class="jr__item jr-languages__item">
+          {{ .language }} —
+          {{ .fluency }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

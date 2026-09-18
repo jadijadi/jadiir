@@ -1,0 +1,36 @@
+{
+  "sum": "b02678c0b72bd945",
+  "dependencySources": {
+    "dependencies": {
+      "@tabler/icons": "github.com/schnerring/hugo-theme-gruvbox",
+      "flexsearch": "github.com/schnerring/hugo-theme-gruvbox",
+      "normalize.css": "github.com/schnerring/hugo-theme-gruvbox",
+      "prism-themes": "github.com/schnerring/hugo-theme-gruvbox",
+      "prismjs": "github.com/schnerring/hugo-theme-gruvbox",
+      "simple-icons": "github.com/schnerring/hugo-mod-json-resume",
+      "typeface-fira-code": "github.com/schnerring/hugo-theme-gruvbox",
+      "typeface-roboto-slab": "github.com/schnerring/hugo-theme-gruvbox"
+    },
+    "devDependencies": {
+      "@fullhuman/postcss-purgecss": "github.com/schnerring/hugo-theme-gruvbox",
+      "cssnano": "github.com/schnerring/hugo-theme-gruvbox",
+      "eslint": "github.com/schnerring/hugo-theme-gruvbox",
+      "eslint-config-prettier": "github.com/schnerring/hugo-theme-gruvbox",
+      "eslint-plugin-prettier": "github.com/schnerring/hugo-theme-gruvbox",
+      "husky": "github.com/schnerring/hugo-theme-gruvbox",
+      "lint-staged": "github.com/schnerring/hugo-theme-gruvbox",
+      "markdownlint-cli": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-cli": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-custom-media": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-import": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-nesting": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-preset-env": "github.com/schnerring/hugo-theme-gruvbox",
+      "postcss-url": "github.com/schnerring/hugo-theme-gruvbox",
+      "prettier": "github.com/schnerring/hugo-theme-gruvbox",
+      "prettier-plugin-go-template": "github.com/schnerring/hugo-theme-gruvbox",
+      "stylelint": "github.com/schnerring/hugo-theme-gruvbox",
+      "stylelint-prettier": "github.com/schnerring/hugo-theme-gruvbox"
+    }
+  }
+}

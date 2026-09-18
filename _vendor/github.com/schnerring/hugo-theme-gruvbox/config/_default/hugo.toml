@@ -1,0 +1,169 @@
+baseURL = "http://localhost"
+copyright = "Copyright © 2021"
+title = "hugo-theme-gruvbox"
+#paginate = 10
+enableRobotsTXT = true
+# Enable to calculate the last modified date from Git history and show it in the post header
+#enableGitInfo = true
+
+[build]
+  noJSConfigInAssets = true
+  [build.buildStats]
+    # With each build, Hugo writes a hugo_stats.json file that contains arrays
+    # of the class attributes, id attributes, and tags of each HTML element 
+    # within the published site. For production builds, this file is required 
+    # by PurgeCSS to prune unused CSS.
+    enable = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # This setting allows inlining <script> and <style> tags in markdown, 
+      # which is useful and required to use Prism plugins, but may be dangerous 
+      # if the content isn't trustworthy.
+      unsafe = true
+
+[imaging]
+  # JPEG and WebP image processing quality, defaults to 75%
+  #quality = 75
+
+[outputs]
+  home = ["html", "rss", "searchIndex"]
+
+[outputFormats]
+  [outputFormats.searchIndex]
+    mediaType = "application/json"
+    baseName = "search-index"
+    isPlainText = true
+    notAlternative = true
+
+[params]
+  # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
+  # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
+  #defaultTheme = "light"
+  # gray red green yellow blue purple aqua orange, defaults to blue
+  #themeColor = "blue"
+  # soft medium hard, defaults to medium
+  #themeContrast = "medium"
+  author = "Michael Schnerring"
+  subtitle = "Theme Demo"
+  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+
+  [params.logo]
+    text = "gruvbox"
+    url = "/"
+
+  [params.prism]
+    languages = [
+      "markup",
+      "css",
+      "clike",
+      "javascript",
+      "bash",
+      "diff",
+      "toml"
+    ]
+    plugins = [
+      "normalize-whitespace",
+      "toolbar",
+      "copy-to-clipboard",
+      "line-numbers",
+      "command-line",
+      "diff-highlight"
+    ]
+  
+  # By default, the theme creates resized versions of images ranging from 300 to
+  # 700 pixels wide in increments of 200 pixels
+  #[params.imageResize]
+  #  min = 300
+  #  max = 700
+  #  increment = 200
+  
+  [params.tagCloud]
+    enable = false
+    minFontSizeRem = 0.8
+    maxFontSizeRem = 2.0
+
+  # Social share links for posts:
+  #   - iconSuite: "simple-icon" or "tabler-icon"
+  #   - iconName: name of the icon from the "iconSuite"
+  #   - {url} placeholder for post .Permalink
+  #   - {title} placeholder for post .Title
+  # See  https://github.com/bradvin/social-share-urls for more format strings
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "facebook"
+    formatString = "https://www.facebook.com/sharer.php?u={url}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "reddit"
+    formatString = "https://reddit.com/submit?url={url}&title={title}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "x"
+    formatString = "https://x.com/intent/post?url={url}&text={title}"
+  [[params.socialShare]]
+    iconSuite = "tabler-icon"
+    iconName = "outline/brand-linkedin"
+    formatString = "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "whatsapp"
+    formatString = "whatsapp://send/?text={title}%20{url}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "tumblr"
+    formatString = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={title}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "pinterest"
+    formatString = "http://pinterest.com/pin/create/button/?url={url}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "ycombinator"
+    formatString = "https://news.ycombinator.com/submitlink?u={url}&t={title}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "vk"
+    formatString = "http://vk.com/share.php?url={url}&title={title}&comment={title}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "xing"
+    formatString = "https://www.xing.com/spi/shares/new?url={url}"
+  [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "telegram"
+    formatString = "https://telegram.me/share/url?url={url}&text={title}"
+  [[params.socialShare]]
+    iconSuite = "tabler-icon"
+    iconName = "outline/mail"
+    formatString = "mailto:?subject={title}&body={url}"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 10
+    [languages.en.params.jsonResume]
+      present = "present"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 20
+    [languages.de.params.jsonResume]
+      present = "heute"

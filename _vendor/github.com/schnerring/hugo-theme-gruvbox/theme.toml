@@ -1,0 +1,18 @@
+name = "Gruvbox"
+license = "MIT"
+licenselink = "https://github.com/schnerring/hugo-theme-gruvbox/blob/main/LICENSE"
+description = "A retro-looking Hugo theme inspired by the gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+homepage = "https://github.com/schnerring/hugo-theme-gruvbox"
+demosite = "https://hugo-theme-gruvbox.schnerring.net"
+tags = [
+  "blog",
+  "dark mode",
+  "minimal",
+  "personal",
+  "responsive"
+]
+features = ["dark mode"]
+
+[author]
+  name = "Michael Schnerring"
+  homepage = "https://schnerring.net"

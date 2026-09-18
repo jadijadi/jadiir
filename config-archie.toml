@@ -1,0 +1,28 @@
+# Theme: Archie — https://github.com/athul/archie (git submodule in themes/archie)
+theme = "archie"
+
+[params]
+  mode = "auto"      # light / dark / auto / toggle
+  useCDN = false
+
+[[params.social]]
+  name = "Mastodon"
+  icon = "simple:mastodon"
+  url = "https://bsd.cafe/@jadi"
+[[params.social]]
+  name = "Telegram"
+  icon = "simple:telegram"
+  url = "https://t.me/jadijadi"
+[[params.social]]
+  name = "Signal"
+  icon = "simple:signal"
+  url = "https://signal.me/#u/jadi.19"
+[[params.social]]
+  name = "Email"
+  icon = "mail"
+  url = "mailto:jadijadi@gmail.com"
+
+# Archie-specific layout overrides (homepage content, no bogus dates)
+[[module.mounts]]
+  source = "layouts-archie"
+  target = "layouts"

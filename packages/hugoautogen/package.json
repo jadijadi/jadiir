@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@tabler/icons": "^3.35.0",
+    "flexsearch": "0.8.212",
+    "normalize.css": "^8.0.1",
+    "prism-themes": "^1.9.0",
+    "prismjs": "^1.30.0",
+    "simple-icons": "^15.14.0",
+    "typeface-fira-code": "^1.1.13",
+    "typeface-roboto-slab": "^1.1.13"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "cssnano": "^7.1.1",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
+    "markdownlint-cli": "^0.45.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-custom-media": "^11.0.6",
+    "postcss-import": "^16.1.1",
+    "postcss-nesting": "^13.0.2",
+    "postcss-preset-env": "^10.4.0",
+    "postcss-url": "^10.1.3",
+    "prettier": "^3.6.2",
+    "prettier-plugin-go-template": "^0.0.15",
+    "stylelint": "^16.24.0",
+    "stylelint-prettier": "^5.0.3"
+  },
+  "name": "jadiir",
+  "version": "0.1.0"
+}

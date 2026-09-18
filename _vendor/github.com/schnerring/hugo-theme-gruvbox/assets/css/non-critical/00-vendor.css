@@ -1,0 +1,24 @@
+/*! purgecss start ignore */
+
+{{ range $.Site.Params.prism.plugins }}
+  {{ $path := printf "prismjs/plugins/%s/prism-%s.css" . . }}
+  {{ $pluginCSS := resources.Get $path }}
+  {{ if $pluginCSS }}
+    {{ $importPath := trim $pluginCSS.RelPermalink "/" }}
+    {{ printf "/* Import stylesheet for Prism plugin '%s' from '%s' */" . $importPath }}
+    @import "{{ $importPath }}";
+  {{ end }}
+{{ end }}
+
+/* Prism Font */
+code,
+kbd,
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: var(--font-monospace);
+}
+
+/*! purgecss end ignore */
+
+/* Default license header for non-vendor CSS source code that follows */
+/*! MIT License | github.com/schnerring/hugo-theme-gruvbox */

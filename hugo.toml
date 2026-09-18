@@ -1,33 +1,23 @@
+# Shared site config. Pick a theme by adding its config file, e.g.:
+#   hugo server --config hugo.toml,config-gruvbox.toml
+# or simply `make serve THEME=gruvbox` (see Makefile / notes.txt).
+
 baseURL = "https://jadi.space/"
 locale = "en-US"
 title = "Jadi"
-theme = "archie"
 copyright = "© Jadi Mirmirani"
 
 enableRobotsTXT = true
 
+# Declared explicitly so themes that ship multi-language demo configs don't add languages
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+
 [params]
-  mode = "auto"      # light / dark / auto / toggle
-  useCDN = false
   description = "Essential info about Jadi Mirmirani: contact, links and ways to support."
   mainSections = []
-
-[[params.social]]
-  name = "Mastodon"
-  icon = "simple:mastodon"
-  url = "https://bsd.cafe/@jadi"
-[[params.social]]
-  name = "Telegram"
-  icon = "simple:telegram"
-  url = "https://t.me/jadijadi"
-[[params.social]]
-  name = "Signal"
-  icon = "simple:signal"
-  url = "https://signal.me/#u/jadi.19"
-[[params.social]]
-  name = "Email"
-  icon = "mail"
-  url = "mailto:jadijadi@gmail.com"
 
 [[menu.main]]
   name = "Home"

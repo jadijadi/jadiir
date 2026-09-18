@@ -1,0 +1,12 @@
+{
+  "basics": {
+    "name": "Jadi Mirmirani",
+    "email": "jadijadi@gmail.com",
+    "url": "https://jadi.space",
+    "profiles": [
+      { "network": "Mastodon", "username": "@jadi@bsd.cafe", "url": "https://bsd.cafe/@jadi" },
+      { "network": "Telegram", "username": "jadijadi", "url": "https://t.me/jadijadi" },
+      { "network": "Signal", "username": "jadi.19", "url": "https://signal.me/#u/jadi.19" }
+    ]
+  }
+}

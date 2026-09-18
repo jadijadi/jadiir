@@ -1,0 +1,23 @@
+# Theme: PaperMod — https://github.com/adityatelange/hugo-PaperMod (git submodule in themes/PaperMod)
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  hideMeta = true
+  hidePostDate = true
+
+[[params.socialIcons]]
+  name = "mastodon"
+  url = "https://bsd.cafe/@jadi"
+[[params.socialIcons]]
+  name = "telegram"
+  url = "https://t.me/jadijadi"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:jadijadi@gmail.com"

@@ -1,0 +1,13 @@
+{{- $isExternal := strings.HasPrefix .Destination "http" -}}
+<a
+  href="{{ .Destination | safeURL }}"
+  {{ with .Title }}
+    title="{{ . }}"
+  {{ end }}
+  {{ if $isExternal }}
+    class="link--external" target="_blank" rel="noreferrer"
+  {{ end }}
+>
+  {{- .Text | safeHTML -}}
+</a>
+{{- /* Trimm trailing whitespace */ -}}

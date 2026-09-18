@@ -1,0 +1,29 @@
+<footer>
+  <div class="copyright">
+    {{ with $.Site.Copyright }}
+      {{ . | safeHTML }}
+    {{ end }}
+  </div>
+</footer>
+
+{{ $jsBuildOptions := dict "target" "es6" }}
+{{ if hugo.IsProduction }}
+  {{ $jsBuildOptions = $jsBuildOptions | merge (dict "minify" "true") }}
+{{ end }}
+
+{{ $prism := resources.Get "js/prism.js" | resources.ExecuteAsTemplate "js/prism.js" . }}
+{{ $bundle := slice $prism | resources.Concat "js/main.js" | js.Build $jsBuildOptions }}
+{{ $flexsearch := resources.Get "js/flexsearch.js" | resources.ExecuteAsTemplate "js/flexsearch.js" . | js.Build $jsBuildOptions }}
+
+{{ if hugo.IsProduction }}
+  {{ $bundle = $bundle | fingerprint "sha512" }}
+  {{ $flexsearch = $flexsearch | fingerprint "sha512" }}
+{{ end }}
+
+{{/* prettier-ignore-start */}}
+<script src="{{ $bundle.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $bundle.Data.Integrity }}"{{ end }}></script>
+<script src="{{ $flexsearch.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $flexsearch.Data.Integrity }}"{{ end }}></script>
+{{/* prettier-ignore-end */}}
+
+<!-- Extensibility -->
+{{ partial "footer_end.html" . }}

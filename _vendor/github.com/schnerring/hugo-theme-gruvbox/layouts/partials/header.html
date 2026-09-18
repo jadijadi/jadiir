@@ -1,0 +1,62 @@
+<header>
+  <a
+    class="logo"
+    href="
+    {{- with $.Site.Params.Logo.URL -}}
+      {{- . -}}
+    {{- else -}}
+      {{- $.Site.BaseURL -}}
+    {{- end -}}"
+  >
+    {{ with $.Site.Params.Logo.Text }}
+      <div class="logo__text">{{ . }}</div>
+    {{ end }}
+    <div class="logo__chevron">></div>
+    <div class="logo__cursor">█</div>
+  </a>
+
+  <div class="search">
+    <input
+      id="search__text"
+      type="search"
+      placeholder="Search..."
+      aria-label="Search"
+      autocomplete="off"
+    />
+    <div id="search__suggestions" class="search__suggestions--hidden"></div>
+  </div>
+
+  <nav id="menu">
+    <ul class="menu--horizontal">
+      {{ range $.Site.Menus.main }}
+        <li class="menu__item">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+
+    <div class="menu__burger">
+      <!-- Invisible checkbox indicating menu state -->
+      <input class="menu__item" type="checkbox" aria-label="Open main menu" />
+
+      {{ partial "icons/tabler-icon.html" "outline/menu-2" }}
+
+
+      <ul class="menu--vertical">
+        {{ range $.Site.Menus.main }}
+          <li>
+            <a class="menu__item" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+
+  <button class="theme__toggle light--hidden" aria-label="Toggle light mode">
+    {{ partial "icons/tabler-icon.html" "outline/sun" }}
+  </button>
+
+  <button class="theme__toggle dark--hidden" aria-label="Toggle dark mode">
+    {{ partial "icons/tabler-icon.html" "outline/moon" }}
+  </button>
+</header>

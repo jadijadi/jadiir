@@ -1,0 +1,13 @@
+{{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+{{ with $cv.interests }}
+  <div class="jr__list jr-interests__list">
+    <ul>
+      {{ range . }}
+        <li class="jr__item jr-interests__item">
+          {{ .name }} —
+          {{ delimit .keywords ", " }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

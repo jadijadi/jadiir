@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <div class="content-section">
+    <h1>{{ .Title | markdownify }}</h1>
+    {{ with .Content }}
+      <div>{{ . }}</div>
+    {{ end }}
+  </div>
+  {{ partial "post-list.html" .Paginator }}
+{{ end }}

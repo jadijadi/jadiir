@@ -1,0 +1,72 @@
+{{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+{{ with $cv.basics }}
+  <div class="jr__item jr-basics__item">
+    {{ partial "json-resume/basics-image.html" . }}
+
+    {{ with .name }}
+      <div class="jr-basics__name">{{ . }}</div>
+    {{ end }}
+
+    {{ with .label }}
+      <div class="jr-basics__label">{{ . }}</div>
+    {{ end }}
+
+    {{ with .email }}
+      <div class="jr-basics__email">{{ . }}</div>
+    {{ end }}
+
+    {{ with .phone }}
+      <div class="jr-basics__phone">{{ . }}</div>
+    {{ end }}
+
+    {{ with .url }}
+      <div class="jr-basics__url">
+        <a href="{{ . }}">{{ . }}</a>
+      </div>
+    {{ end }}
+
+    {{ with .summary }}
+      <div class="jr-basics__summary">{{ . }}</div>
+    {{ end }}
+
+    {{ with .location }}
+      {{ with .address }}
+        <div class="jr-basics__location-address">{{ . }}</div>
+      {{ end }}
+
+      {{ with .postalCode }}
+        <div class="jr-basics__location-postalCode">{{ . }}</div>
+      {{ end }}
+
+      {{ with .city }}
+        <div class="jr-basics__location-city">{{ . }}</div>
+      {{ end }}
+
+      {{ with .countryCode }}
+        <div class="jr-basics__location-countryCode">{{ . }}</div>
+      {{ end }}
+
+      {{ with .region }}
+        <div class="jr-basics__location-region">{{ . }}</div>
+      {{ end }}
+    {{ end }}
+
+    {{ with where .profiles "username" "ne" nil }}
+      <hr />
+      <div class="jr-basics__profile jr-basics__profile--col">
+        {{ range . }}
+          {{ partial "simple-icon.html" (dict "url" .url "network" .network "username" .username) }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with where .profiles "username" "eq" nil }}
+      <hr />
+      <div class="jr-basics__profile jr-basics__profile--row">
+        {{ range . }}
+          {{ partial "simple-icon.html" (dict "url" .url "network" .network "username" .username) }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,25 @@
+{{ range $pageIndex, $page := .Pages }}
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      </h2>
+      {{ partial "post-meta.html" (dict "page" . "pageIndex" $pageIndex) }}
+    </div>
+
+    <div class="post-content">
+      {{ with .Description }}
+        {{ . }}
+      {{ else }}
+        {{ .Summary }}
+        {{ if .Truncated }}
+          <div class="post-content__read-more">
+            <a href="{{ .RelPermalink }}">Read more &gt;</a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </article>
+{{ end }}
+
+{{ partial "pagination.html" . }}
