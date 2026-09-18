@@ -1,1 +1,1 @@
-A simple website with my links, support and general info data hosted at [jadi.ir](https://jadi.ir).
+A simple website with my links, support and general info data hosted at [jadi.space](https://jadi.space). Built with [Hugo](https://gohugo.io/) and the [Archie](https://github.com/athul/archie) theme; see `notes.txt` for the workflow.

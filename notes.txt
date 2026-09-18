@@ -1,11 +1,13 @@
-This is a Zola static site: https://www.getzola.org/
+This is a Hugo static site (https://gohugo.io/) using the Archie theme (https://github.com/athul/archie).
+
+First checkout (theme is a git submodule):
+- git submodule update --init --recursive
 
 To work:
-- zola serve
+- hugo server
 
 To publish:
 
-- zola build
+- hugo --cleanDestinationDir
 - ghp-import public
 - git push origin gh-pages
-

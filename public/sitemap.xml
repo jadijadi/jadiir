@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://jadi.ir/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/about/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/contact/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/links/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/readme/</loc>
-    </url>
-    <url>
-        <loc>https://jadi.ir/support/</loc>
-    </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/support/</loc>
+  </url>
 </urlset>

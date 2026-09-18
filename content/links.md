@@ -1,8 +1,5 @@
 +++
-title="LINKS"
-weight=3
+title = "Links"
 +++
-
-# Links
 
 You can find related links at [linktr.ee/jadijadi](https://linktr.ee/jadijadi).

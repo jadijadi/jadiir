@@ -1,8 +1,5 @@
 +++
-title="ABOUT"
-weight=5
+title = "About Jadi"
 +++
-
-# About Jadi
 
 Jadi is me.
