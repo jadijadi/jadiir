@@ -23,7 +23,7 @@ On both **Wise** and **PayPal** you can find me by using my email address: **jad
 Receiving Crypto is always a joy.. or the best Joy. If you want to support via crypto, these are my addresses and I would be more than happy if you email me on jadijadi@gmail.com afterwards so I'll be able to thank you.
 
 ##### BTC Lightning
-![Support Jadi BTC Lightning](/images/crypto/lightning.jpg)
+![Support Jadi BTC Lightning](/images/crypto/lightning.png)
 lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkcmmhd3ukcctdwqervztskc4
 
 On Wallet of Satoshi: lowlylamp26@walletofsatoshi.com
