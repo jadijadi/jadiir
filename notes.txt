@@ -18,3 +18,8 @@ To publish:
 - make publish THEME=gruvbox    (= hugo build + ghp-import public + git push origin gh-pages)
 
 Note: `hugo server` writes into public/ too, so always run the build right before publishing.
+
+Blog:
+- Posts live in content/blog/<slug>/index.md as page bundles (images next to the post).
+- The Medium posts were imported with scripts/import_medium.py (see its docstring).
+- The homepage lists the latest 10 posts; older ones are paginated.

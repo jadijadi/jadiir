@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Note-to-Self on Jadi</title>
+		<link>https://jadi.space/tags/note-to-self/</link>
+		<description>Recent content in Note-to-Self on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Tue, 11 Jul 2023 08:36:07 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/note-to-self/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Change the owner of the last git commit</title>
+				<link>https://jadi.space/blog/change-the-owner-of-the-last-git-commit/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/blog/change-the-owner-of-the-last-git-commit/</guid>
+				<description>&lt;p&gt;It happens! You are working for your company and cloned a repository and commiting something.. but you have commited using your global identity. The solution is simple, using this command you can change the name and the email of the last commit:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git commi --amend --author=&amp;#34;Jadi &amp;lt;jadijadi@gmail.com&amp;gt;&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;As a side note, you can change your username and email which is used in git commits for a specific git repository via these commands WHEN you are in that git repositories directory:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

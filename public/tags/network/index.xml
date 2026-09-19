@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Network on Jadi</title>
+		<link>https://jadi.space/tags/network/</link>
+		<description>Recent content in Network on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Thu, 20 Nov 2025 03:34:33 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/network/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How Traceroute works — internally</title>
+				<link>https://jadi.space/blog/how-traceroute-works-internally/</link>
+				<pubDate>Thu, 20 Nov 2025 03:34:33 +0000</pubDate>
+				<guid>https://jadi.space/blog/how-traceroute-works-internally/</guid>
+				<description>&lt;p&gt;Ever wondered how traceroute actually figures out every router between you and a website? In this video, we dive deep into what’s really happening under the hood — the TTL tricks, the ICMP time-exceeded replies, and how your computer basically forces the internet to reveal every hop along the way. I’ll walk through real packets, show you why traceroute sends three probes per hop, and explain how it magically prints hostnames even though you rarely see reverse-DNS traffic in the capture. If you’ve ever used traceroute for debugging, learning networking, or just satisfying your curiosity, this breakdown will make the command finally “click.” Perfect for anyone into networking, hacking, sysadmin work, or just internet nerdery in general.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

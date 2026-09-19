@@ -15,33 +15,41 @@ enableRobotsTXT = true
     label = "English"
     weight = 1
 
+[pagination]
+  pagerSize = 10
+
 [params]
   description = "Essential info about Jadi Mirmirani: contact, links and ways to support."
-  mainSections = []
+  mainSections = ["blog"]
 
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 1
 [[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+[[menu.main]]
   name = "Contact"
   url = "/contact/"
-  weight = 2
+  weight = 3
 [[menu.main]]
   name = "Links"
   url = "/links/"
-  weight = 3
+  weight = 4
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 4
+  weight = 5
 [[menu.main]]
   name = "Support"
   url = "/support/"
-  weight = 5
+  weight = 6
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
 
 [taxonomies]
+  tag = "tags"

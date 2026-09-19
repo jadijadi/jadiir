@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Sysadmin on Jadi</title>
+		<link>https://jadi.space/tags/sysadmin/</link>
+		<description>Recent content in Sysadmin on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Wed, 16 Aug 2023 07:39:30 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sign your git commits, no-nonsense ! without “intro”, “why” &amp; …</title>
+				<link>https://jadi.space/blog/sign-your-git-commits-no-nonsense-without-intro-why/</link>
+				<pubDate>Wed, 16 Aug 2023 07:39:30 +0000</pubDate>
+				<guid>https://jadi.space/blog/sign-your-git-commits-no-nonsense-without-intro-why/</guid>
+				<description>&lt;p&gt;I’m not going into “why you should sign” and blah blah to make this post longer. Most people are here because they needed to sign their commits and they searched (mainly my self future!).&lt;/p&gt;&#xA;&lt;p&gt;First, check your keys. Signing with SSH keys is easier because most people already do have their ssh keys &amp;amp; are using them to login into the github. So check the &lt;code&gt;~/.ssh/&lt;/code&gt; directory for a pair of &lt;code&gt;id_rsa&lt;/code&gt; and &lt;code&gt;id_rsa.pub&lt;/code&gt; (or any other format of the key you have).&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

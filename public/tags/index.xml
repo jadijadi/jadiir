@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on Jadi</title>
+		<link>https://jadi.space/tags/</link>
+		<description>Recent content in Tags on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Wed, 17 Dec 2025 23:06:31 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Age-Verification</title>
+				<link>https://jadi.space/tags/age-verification/</link>
+				<pubDate>Wed, 17 Dec 2025 23:06:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/age-verification/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Censorship</title>
+				<link>https://jadi.space/tags/censorship/</link>
+				<pubDate>Wed, 17 Dec 2025 23:06:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/censorship/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Freedom</title>
+				<link>https://jadi.space/tags/freedom/</link>
+				<pubDate>Wed, 17 Dec 2025 23:06:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/freedom/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Human-Rights</title>
+				<link>https://jadi.space/tags/human-rights/</link>
+				<pubDate>Wed, 17 Dec 2025 23:06:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/human-rights/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Totalitarianism</title>
+				<link>https://jadi.space/tags/totalitarianism/</link>
+				<pubDate>Wed, 17 Dec 2025 23:06:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/totalitarianism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Computer-Science</title>
+				<link>https://jadi.space/tags/computer-science/</link>
+				<pubDate>Thu, 20 Nov 2025 04:04:00 +0000</pubDate>
+				<guid>https://jadi.space/tags/computer-science/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Devops</title>
+				<link>https://jadi.space/tags/devops/</link>
+				<pubDate>Thu, 20 Nov 2025 04:04:00 +0000</pubDate>
+				<guid>https://jadi.space/tags/devops/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jobs</title>
+				<link>https://jadi.space/tags/jobs/</link>
+				<pubDate>Thu, 20 Nov 2025 04:04:00 +0000</pubDate>
+				<guid>https://jadi.space/tags/jobs/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>https://jadi.space/tags/linux/</link>
+				<pubDate>Thu, 20 Nov 2025 04:04:00 +0000</pubDate>
+				<guid>https://jadi.space/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Roadmaps</title>
+				<link>https://jadi.space/tags/roadmaps/</link>
+				<pubDate>Thu, 20 Nov 2025 04:04:00 +0000</pubDate>
+				<guid>https://jadi.space/tags/roadmaps/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Network</title>
+				<link>https://jadi.space/tags/network/</link>
+				<pubDate>Thu, 20 Nov 2025 03:34:33 +0000</pubDate>
+				<guid>https://jadi.space/tags/network/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Admin</title>
+				<link>https://jadi.space/tags/admin/</link>
+				<pubDate>Thu, 24 Oct 2024 08:55:08 +0000</pubDate>
+				<guid>https://jadi.space/tags/admin/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Clickhouse</title>
+				<link>https://jadi.space/tags/clickhouse/</link>
+				<pubDate>Thu, 24 Oct 2024 08:55:08 +0000</pubDate>
+				<guid>https://jadi.space/tags/clickhouse/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Database</title>
+				<link>https://jadi.space/tags/database/</link>
+				<pubDate>Thu, 24 Oct 2024 08:55:08 +0000</pubDate>
+				<guid>https://jadi.space/tags/database/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Snippet</title>
+				<link>https://jadi.space/tags/snippet/</link>
+				<pubDate>Thu, 24 Oct 2024 08:55:08 +0000</pubDate>
+				<guid>https://jadi.space/tags/snippet/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming</title>
+				<link>https://jadi.space/tags/programming/</link>
+				<pubDate>Thu, 24 Oct 2024 06:55:36 +0000</pubDate>
+				<guid>https://jadi.space/tags/programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Python</title>
+				<link>https://jadi.space/tags/python/</link>
+				<pubDate>Thu, 24 Oct 2024 06:55:36 +0000</pubDate>
+				<guid>https://jadi.space/tags/python/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Git</title>
+				<link>https://jadi.space/tags/git/</link>
+				<pubDate>Wed, 16 Aug 2023 07:39:30 +0000</pubDate>
+				<guid>https://jadi.space/tags/git/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Signing</title>
+				<link>https://jadi.space/tags/signing/</link>
+				<pubDate>Wed, 16 Aug 2023 07:39:30 +0000</pubDate>
+				<guid>https://jadi.space/tags/signing/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sysadmin</title>
+				<link>https://jadi.space/tags/sysadmin/</link>
+				<pubDate>Wed, 16 Aug 2023 07:39:30 +0000</pubDate>
+				<guid>https://jadi.space/tags/sysadmin/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Commit</title>
+				<link>https://jadi.space/tags/commit/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/tags/commit/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Identity</title>
+				<link>https://jadi.space/tags/identity/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/tags/identity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Note-to-Self</title>
+				<link>https://jadi.space/tags/note-to-self/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/tags/note-to-self/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tips</title>
+				<link>https://jadi.space/tags/tips/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/tags/tips/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gnome</title>
+				<link>https://jadi.space/tags/gnome/</link>
+				<pubDate>Tue, 11 Jul 2023 05:48:33 +0000</pubDate>
+				<guid>https://jadi.space/tags/gnome/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Keyboard</title>
+				<link>https://jadi.space/tags/keyboard/</link>
+				<pubDate>Tue, 11 Jul 2023 05:48:33 +0000</pubDate>
+				<guid>https://jadi.space/tags/keyboard/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tricks</title>
+				<link>https://jadi.space/tags/tricks/</link>
+				<pubDate>Tue, 11 Jul 2023 05:48:33 +0000</pubDate>
+				<guid>https://jadi.space/tags/tricks/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Api</title>
+				<link>https://jadi.space/tags/api/</link>
+				<pubDate>Sat, 01 Jul 2023 13:20:57 +0000</pubDate>
+				<guid>https://jadi.space/tags/api/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Soap</title>
+				<link>https://jadi.space/tags/soap/</link>
+				<pubDate>Sat, 01 Jul 2023 13:20:57 +0000</pubDate>
+				<guid>https://jadi.space/tags/soap/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Wsdl</title>
+				<link>https://jadi.space/tags/wsdl/</link>
+				<pubDate>Sat, 01 Jul 2023 13:20:57 +0000</pubDate>
+				<guid>https://jadi.space/tags/wsdl/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Caps-Lock</title>
+				<link>https://jadi.space/tags/caps-lock/</link>
+				<pubDate>Thu, 22 Jun 2023 13:11:19 +0000</pubDate>
+				<guid>https://jadi.space/tags/caps-lock/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Keyboard-Layout</title>
+				<link>https://jadi.space/tags/keyboard-layout/</link>
+				<pubDate>Thu, 22 Jun 2023 13:11:19 +0000</pubDate>
+				<guid>https://jadi.space/tags/keyboard-layout/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pop-Os</title>
+				<link>https://jadi.space/tags/pop-os/</link>
+				<pubDate>Thu, 22 Jun 2023 13:11:19 +0000</pubDate>
+				<guid>https://jadi.space/tags/pop-os/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Github</title>
+				<link>https://jadi.space/tags/github/</link>
+				<pubDate>Thu, 09 Feb 2023 09:07:47 +0000</pubDate>
+				<guid>https://jadi.space/tags/github/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tip</title>
+				<link>https://jadi.space/tags/tip/</link>
+				<pubDate>Thu, 09 Feb 2023 09:07:47 +0000</pubDate>
+				<guid>https://jadi.space/tags/tip/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tips-and-Tri</title>
+				<link>https://jadi.space/tags/tips-and-tri/</link>
+				<pubDate>Thu, 09 Feb 2023 09:07:47 +0000</pubDate>
+				<guid>https://jadi.space/tags/tips-and-tri/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mac</title>
+				<link>https://jadi.space/tags/mac/</link>
+				<pubDate>Wed, 08 Feb 2023 09:33:51 +0000</pubDate>
+				<guid>https://jadi.space/tags/mac/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Os-X</title>
+				<link>https://jadi.space/tags/os-x/</link>
+				<pubDate>Wed, 08 Feb 2023 09:33:51 +0000</pubDate>
+				<guid>https://jadi.space/tags/os-x/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ventura</title>
+				<link>https://jadi.space/tags/ventura/</link>
+				<pubDate>Wed, 08 Feb 2023 09:33:51 +0000</pubDate>
+				<guid>https://jadi.space/tags/ventura/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bicycles</title>
+				<link>https://jadi.space/tags/bicycles/</link>
+				<pubDate>Wed, 01 Dec 2021 09:50:42 +0000</pubDate>
+				<guid>https://jadi.space/tags/bicycles/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cycling</title>
+				<link>https://jadi.space/tags/cycling/</link>
+				<pubDate>Wed, 01 Dec 2021 09:50:42 +0000</pubDate>
+				<guid>https://jadi.space/tags/cycling/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Iran</title>
+				<link>https://jadi.space/tags/iran/</link>
+				<pubDate>Wed, 01 Dec 2021 09:50:42 +0000</pubDate>
+				<guid>https://jadi.space/tags/iran/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Middle-East</title>
+				<link>https://jadi.space/tags/middle-east/</link>
+				<pubDate>Wed, 01 Dec 2021 09:50:42 +0000</pubDate>
+				<guid>https://jadi.space/tags/middle-east/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Nature</title>
+				<link>https://jadi.space/tags/nature/</link>
+				<pubDate>Wed, 01 Dec 2021 09:50:42 +0000</pubDate>
+				<guid>https://jadi.space/tags/nature/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bitcoin</title>
+				<link>https://jadi.space/tags/bitcoin/</link>
+				<pubDate>Thu, 14 Oct 2021 07:25:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/bitcoin/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jp-Morgan</title>
+				<link>https://jadi.space/tags/jp-morgan/</link>
+				<pubDate>Thu, 14 Oct 2021 07:25:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/jp-morgan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Source-Code</title>
+				<link>https://jadi.space/tags/source-code/</link>
+				<pubDate>Thu, 14 Oct 2021 07:25:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/source-code/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Yahoo</title>
+				<link>https://jadi.space/tags/yahoo/</link>
+				<pubDate>Thu, 14 Oct 2021 07:25:31 +0000</pubDate>
+				<guid>https://jadi.space/tags/yahoo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Embargo</title>
+				<link>https://jadi.space/tags/embargo/</link>
+				<pubDate>Sun, 28 Jul 2019 15:01:36 +0000</pubDate>
+				<guid>https://jadi.space/tags/embargo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Us</title>
+				<link>https://jadi.space/tags/us/</link>
+				<pubDate>Sun, 28 Jul 2019 15:01:36 +0000</pubDate>
+				<guid>https://jadi.space/tags/us/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Debian</title>
+				<link>https://jadi.space/tags/debian/</link>
+				<pubDate>Mon, 19 Dec 2016 07:07:03 +0000</pubDate>
+				<guid>https://jadi.space/tags/debian/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Raspberry-Pi</title>
+				<link>https://jadi.space/tags/raspberry-pi/</link>
+				<pubDate>Mon, 19 Dec 2016 07:07:03 +0000</pubDate>
+				<guid>https://jadi.space/tags/raspberry-pi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Internet</title>
+				<link>https://jadi.space/tags/internet/</link>
+				<pubDate>Thu, 17 Nov 2016 16:58:28 +0000</pubDate>
+				<guid>https://jadi.space/tags/internet/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Security</title>
+				<link>https://jadi.space/tags/security/</link>
+				<pubDate>Thu, 17 Nov 2016 16:58:28 +0000</pubDate>
+				<guid>https://jadi.space/tags/security/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Twitter</title>
+				<link>https://jadi.space/tags/twitter/</link>
+				<pubDate>Thu, 17 Nov 2016 16:58:28 +0000</pubDate>
+				<guid>https://jadi.space/tags/twitter/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Facebook</title>
+				<link>https://jadi.space/tags/facebook/</link>
+				<pubDate>Mon, 14 Nov 2016 17:44:35 +0000</pubDate>
+				<guid>https://jadi.space/tags/facebook/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Instagram</title>
+				<link>https://jadi.space/tags/instagram/</link>
+				<pubDate>Mon, 14 Nov 2016 17:44:35 +0000</pubDate>
+				<guid>https://jadi.space/tags/instagram/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tech</title>
+				<link>https://jadi.space/tags/tech/</link>
+				<pubDate>Mon, 14 Nov 2016 17:44:35 +0000</pubDate>
+				<guid>https://jadi.space/tags/tech/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Startup</title>
+				<link>https://jadi.space/tags/startup/</link>
+				<pubDate>Sat, 06 Jun 2015 08:27:52 +0000</pubDate>
+				<guid>https://jadi.space/tags/startup/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Amazon</title>
+				<link>https://jadi.space/tags/amazon/</link>
+				<pubDate>Fri, 15 May 2015 06:27:38 +0000</pubDate>
+				<guid>https://jadi.space/tags/amazon/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Big-Data</title>
+				<link>https://jadi.space/tags/big-data/</link>
+				<pubDate>Wed, 01 Apr 2015 16:07:11 +0000</pubDate>
+				<guid>https://jadi.space/tags/big-data/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Data-Science</title>
+				<link>https://jadi.space/tags/data-science/</link>
+				<pubDate>Wed, 01 Apr 2015 16:07:11 +0000</pubDate>
+				<guid>https://jadi.space/tags/data-science/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
