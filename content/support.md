@@ -6,14 +6,13 @@ toc = true
 
 [Patreon](#patreon) is the best option if you are looking for one, so jump there — unless you know something even better ;)
 
-## International
-### Patreon
+## Patreon
 Um.. this is not that impressive to convince someone to become a Patreon! :D But ... patreons are the supporters who make things happen in a long run. So here is my [Patreon/jadijadi](https://patreon.com/jadijadi)
 
-### BuyMeACoffee
+## BuyMeACoffee
 If you enjoyed / used / liked / or did anything else with my work and you wanted to give back but did not want to be a patreon, you can [BuyMeACoffee/jadijadi](https://buymeacoffee.com/jadijadi)
 
-### PayPal / Wise
+## PayPal / Wise
 I'm having some issues with Paypa... so avoid it if you can chose any other method including Wise.
 
 On both **Wise** and **PayPal** you can find me by using my email address: **jadijadi@gmail.com**.
@@ -55,7 +54,5 @@ TKMWLuNJqRFhELebUHnGwanQ7H9AZwDcWb
 ![Support jadi Monero](/images/crypto/monero.png)
 49Ju7vmcevc78SzCWsySd6AmMPsfq3gV79XKw3imi2KETiNYQBd4QEogkKoY8JLNri78eTmoijC3cUs8UthmN1RJCkonV3E
 
-<div dir="rtl">
-### کافیته
-ایران هستین؟ (: [Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
-</div>
+## کافیته
+[Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
