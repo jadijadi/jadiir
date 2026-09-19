@@ -6,14 +6,6 @@ toc = true
 
 [Patreon](#patreon) is the best option if you are looking for one, so jump there — unless you know something even better ;)
 
-## Iranian
-### Cafe
-Buy me a coffee at [Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
-
-### Bank transfer
-- Card: 6219861816251416
-- Shaba: IR760560611828006168957201
-
 ## International
 ### Patreon
 Um.. this is not that impressive to convince someone to become a Patreon! :D But ... patreons are the supporters who make things happen in a long run. So here is my [Patreon/jadijadi](https://patreon.com/jadijadi)
@@ -62,3 +54,10 @@ TKMWLuNJqRFhELebUHnGwanQ7H9AZwDcWb
 ##### Monero
 ![Support jadi Monero](/images/crypto/monero.png)
 49Ju7vmcevc78SzCWsySd6AmMPsfq3gV79XKw3imi2KETiNYQBd4QEogkKoY8JLNri78eTmoijC3cUs8UthmN1RJCkonV3E
+
+<div dir="rtl">
+
+### کافیته
+ایران هستین؟ (: [Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
+
+</div>
