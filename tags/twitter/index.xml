@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Twitter on Jadi</title>
+		<link>https://jadi.space/tags/twitter/</link>
+		<description>Recent content in Twitter on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Thu, 17 Nov 2016 16:58:28 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Twitter is still blocked in Iran, on DNS level</title>
+				<link>https://jadi.space/blog/twitter-is-still-blocked-in-iran-on-dns-level/</link>
+				<pubDate>Thu, 17 Nov 2016 16:58:28 +0000</pubDate>
+				<guid>https://jadi.space/blog/twitter-is-still-blocked-in-iran-on-dns-level/</guid>
+				<description>&lt;p&gt;Twitter has a strange condition in Iran. It is blocked on our Filternet (that is how we call the Internet!) but at the same time many officials do have twitter accounts; including the Leader, the president, some of the ministers, some parliament members, Tehran’s municipality and many others. Last week one of the &lt;em&gt;reformist&lt;/em&gt; parliament members started tweeting about “why the Twitter is Blocked?” and asked followers to provide him some reasons on “why the state should unblock the twitter”. He claimed that he want to try his chance unblocking twitter!&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

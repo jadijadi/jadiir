@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Raspberry-Pi on Jadi</title>
+		<link>https://jadi.space/tags/raspberry-pi/</link>
+		<description>Recent content in Raspberry-Pi on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Mon, 19 Dec 2016 07:07:03 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Resolving “version string is empty” in debian update</title>
+				<link>https://jadi.space/blog/resolving-version-string-is-empty-in-debian-update/</link>
+				<pubDate>Mon, 19 Dec 2016 07:07:03 +0000</pubDate>
+				<guid>https://jadi.space/blog/resolving-version-string-is-empty-in-debian-update/</guid>
+				<description>&lt;p&gt;From yesterday I had weird issues with a clean installation of debian. Each time I’ve updated my system it crashed with a strange message:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Selecting previously unselected package dirmngr.&#xA;  Preparing to unpack .../48-dirmngr_2.1.16-3_i386.deb ...&#xA;  dpkg-maintscript-helper: error: dpkg: error: version &amp;#39;&amp;#39; has bad syntax: version string is empty&#xA;  dpkg: error processing archive /tmp/apt-dpkg-install-P10DjX/48-dirmngr_2.1.16-3_i386.deb (--unpack):&#xA;   subprocess new pre-installation script returned error exit status 1&#xA;  dpkg-maintscript-helper: error: dpkg: error: version &amp;#39;&amp;#39; has bad syntax: version string is empty&#xA;  dpkg: error while cleaning up:&#xA;   subprocess new post-removal script returned error exit status 1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The issue is simple. dpkg sees an empty version string and refuses to continue. This bug &lt;a&#xA;  href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=848511&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;is already fixed&lt;/a&gt; but not pushed to the main ftp server yet so you may experience the same headache I had for hours to bring your server up and running. The solution is simple. Donwload the older version from &lt;a&#xA;  href=&#34;http://ftp.debian.org/debian/pool/main/d/dpkg/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;http://ftp.debian.org/debian/pool/main/d/dpkg/&lt;/a&gt; and install it. I used dpkg_1.17.27 (&lt;a&#xA;  href=&#34;http://ftp.debian.org/debian/pool/main/d/dpkg/dpkg_1.17.27_amd64.deb&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;amd64 version&lt;/a&gt;) and installed it using:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

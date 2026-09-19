@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Git on Jadi</title>
+		<link>https://jadi.space/tags/git/</link>
+		<description>Recent content in Git on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Wed, 16 Aug 2023 07:39:30 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/git/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sign your git commits, no-nonsense ! without “intro”, “why” &amp; …</title>
+				<link>https://jadi.space/blog/sign-your-git-commits-no-nonsense-without-intro-why/</link>
+				<pubDate>Wed, 16 Aug 2023 07:39:30 +0000</pubDate>
+				<guid>https://jadi.space/blog/sign-your-git-commits-no-nonsense-without-intro-why/</guid>
+				<description>&lt;p&gt;I’m not going into “why you should sign” and blah blah to make this post longer. Most people are here because they needed to sign their commits and they searched (mainly my self future!).&lt;/p&gt;&#xA;&lt;p&gt;First, check your keys. Signing with SSH keys is easier because most people already do have their ssh keys &amp;amp; are using them to login into the github. So check the &lt;code&gt;~/.ssh/&lt;/code&gt; directory for a pair of &lt;code&gt;id_rsa&lt;/code&gt; and &lt;code&gt;id_rsa.pub&lt;/code&gt; (or any other format of the key you have).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Change the owner of the last git commit</title>
+				<link>https://jadi.space/blog/change-the-owner-of-the-last-git-commit/</link>
+				<pubDate>Tue, 11 Jul 2023 08:36:07 +0000</pubDate>
+				<guid>https://jadi.space/blog/change-the-owner-of-the-last-git-commit/</guid>
+				<description>&lt;p&gt;It happens! You are working for your company and cloned a repository and commiting something.. but you have commited using your global identity. The solution is simple, using this command you can change the name and the email of the last commit:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git commi --amend --author=&amp;#34;Jadi &amp;lt;jadijadi@gmail.com&amp;gt;&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;As a side note, you can change your username and email which is used in git commits for a specific git repository via these commands WHEN you are in that git repositories directory:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fixing github login request by changing the HTTPS connection to a SSH one</title>
+				<link>https://jadi.space/blog/fixing-github-login-request-by-changing-the-https-connection-to-a-ssh-one/</link>
+				<pubDate>Thu, 09 Feb 2023 09:07:47 +0000</pubDate>
+				<guid>https://jadi.space/blog/fixing-github-login-request-by-changing-the-https-connection-to-a-ssh-one/</guid>
+				<description>&lt;p&gt;If you have old repositories from github on your computer and try to push to them, you might see a login page asking for your password and even if you provide it, you will get an error that logging in with error is disabled.&lt;/p&gt;&#xA;&lt;p&gt;To resolve this, you have to 1) get a token and use that or 2) change your https connections to SSH ones if you already have your keys on github.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

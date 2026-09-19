@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Keyboard on Jadi</title>
+		<link>https://jadi.space/tags/keyboard/</link>
+		<description>Recent content in Keyboard on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Tue, 11 Jul 2023 05:48:33 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Moving windows in GNOME workspaces using keys</title>
+				<link>https://jadi.space/blog/moving-windows-in-gnome-workspaces-using-keys/</link>
+				<pubDate>Tue, 11 Jul 2023 05:48:33 +0000</pubDate>
+				<guid>https://jadi.space/blog/moving-windows-in-gnome-workspaces-using-keys/</guid>
+				<description>&lt;p&gt;I always prefer to have my workspaces in a grid (using the extention). Unfortunately there is no keybinding configuration in the GNOME’s GUI to configure moving windows to “one workspace up” and “one workspace down”; but the configuration presents in GNOME itself and can be configured using these commands. This is how I like it:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;➜  ~ gsettings set org.gnome.desktop.wm.keybindings  move-to-workspace-right &amp;#34;[&amp;#39;&amp;lt;Control&amp;gt;&amp;lt;Shift&amp;gt;Right&amp;#39;]&amp;#34;&#xA;➜  ~ gsettings set org.gnome.desktop.wm.keybindings  move-to-workspace-left &amp;#34;[&amp;#39;&amp;lt;Control&amp;gt;&amp;lt;Shift&amp;gt;Left&amp;#39;]&amp;#34;&#xA;➜  ~ gsettings set org.gnome.desktop.wm.keybindings  move-to-workspace-up &amp;#34;[&amp;#39;&amp;lt;Control&amp;gt;&amp;lt;Shift&amp;gt;Up&amp;#39;]&amp;#34;&#xA;➜  ~ gsettings set org.gnome.desktop.wm.keybindings  move-to-workspace-down &amp;#34;[&amp;#39;&amp;lt;Control&amp;gt;&amp;lt;Shift&amp;gt;Down&amp;#39;]&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Originally published on &lt;a&#xA;  href=&#34;https://medium.com/@jadi/moving-windows-in-gnome-workspaces-using-keys-971cc90bbe70&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Soap on Jadi</title>
+		<link>https://jadi.space/tags/soap/</link>
+		<description>Recent content in Soap on Jadi</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>© Jadi Mirmirani</copyright>
+		
+		
+			<lastBuildDate>Sat, 01 Jul 2023 13:20:57 +0000</lastBuildDate>
+		
+			<atom:link href="https://jadi.space/tags/soap/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to use SOAP/WSDL APIs using SoapUI &amp; Python Zeep</title>
+				<link>https://jadi.space/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/</link>
+				<pubDate>Sat, 01 Jul 2023 13:20:57 +0000</pubDate>
+				<guid>https://jadi.space/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/</guid>
+				<description>&lt;p&gt;In our Agile / Mobile / “moderm” and fron/back life, we see lots of REST APIs. Using REST is straight forward if you know your HTTP, GET, Post, …&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;        &#xA;          &#xA;          &#xA;        &#xA;        &#xA;        &#xA;        &#xA;          &#xA;          &#xA;          &#xA;        &#xA;      &#xA;    &#xA;      &#xA;        &#xA;          &#xA;          &#xA;        &#xA;        &#xA;        &#xA;        &#xA;          &#xA;          &#xA;          &#xA;        &#xA;      &#xA;    &#xA;      &#xA;        &#xA;          &#xA;        &#xA;        &#xA;        &#xA;        &#xA;          &#xA;          &#xA;          &#xA;        &#xA;      &#xA;    &#xA;&#xA;&#xA;    &lt;picture&gt;&#xA;      &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;https://jadi.space/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_913a14fe5ff510ce.webp 300w,/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_838221cc3f21f4d0.webp 500w,/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_cc32819de75f2235.webp 700w&#34;&#xA;        sizes=&#34;(max-width: 499px) 300px,(max-width: 699px) 500px,700px&#34;&#xA;      /&gt;&#xA;      &lt;img&#xA;        src=&#34;https://jadi.space/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01.png&#34;&#xA;        srcset=&#34;https://jadi.space/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_1cc802aa84f38bfe.png 300w,/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_45262d90072175e5.png 500w,/blog/how-to-use-soap-wsdl-apis-using-soapui-python-zeep/img-01_hu_cacd66e038c101a3.png 700w&#34;&#xA;        sizes=&#34;(max-width: 499px) 300px,(max-width: 699px) 500px,700px&#34;&#xA;        alt=&#34;How to use SOAP/WSDL APIs using SoapUI &amp;amp; Python Zeep&#34;&#xA;        &#xA;        loading=&#34;lazy&#34;&#xA;        width=&#34;1024&#34;&#xA;        height=&#34;1024&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;But on the enterprise level, you will start seein SOAP and WSDL based APIs which look more confusing. Why? Because they are designed machines in mind and sometimes WSDL file is seen as the &lt;em&gt;documentation&lt;/em&gt; and you wont get a human readable doc!&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
