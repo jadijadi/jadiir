@@ -11,7 +11,6 @@ title = "Links"
 - [LinkedIn](https://www.linkedin.com/in/jadijadi/)
 - [X / Twitter](https://x.com/jadi)
 - [Mastodon (@jadi@bsd.cafe)](https://bsd.cafe/@jadi)
-- [Mastodon (@jadi@mastodon.social)](https://mastodon.social/@jadi)
 - [Nostr profile](https://snort.social/p/npub1c29weetz4uk46vl8ja6a98lxqfsz8e27vsdlcqlp8zeqvmkezyaqlupw98)
 - [LPIC-1 book & videos](https://linux1st.com/)
 - [Support me on Patreon](https://www.patreon.com/jadijadi)
