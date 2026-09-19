@@ -56,8 +56,6 @@ TKMWLuNJqRFhELebUHnGwanQ7H9AZwDcWb
 49Ju7vmcevc78SzCWsySd6AmMPsfq3gV79XKw3imi2KETiNYQBd4QEogkKoY8JLNri78eTmoijC3cUs8UthmN1RJCkonV3E
 
 <div dir="rtl">
-
 ### کافیته
 ایران هستین؟ (: [Coffeete.ir/jadi](https://www.coffeete.ir/jadi)
-
 </div>
