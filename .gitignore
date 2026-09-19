@@ -5,3 +5,4 @@ resources/
 *.swp
 node_modules/
 hugo_stats.json
+public/
