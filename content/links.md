@@ -16,7 +16,6 @@ title = "Links"
 - [Support me on Patreon](https://www.patreon.com/jadijadi)
 - [Support me on Buy Me a Coffee](https://www.buymeacoffee.com/jadijadi)
 - [Other ways to support / donate](/support/)
-- [Jadi's gift list](https://giftlist.com/lists/j0nxBkmozCiRy6LMNHYZ)
 
 ## فارسی
 
