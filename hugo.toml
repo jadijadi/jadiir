@@ -46,10 +46,6 @@ enableRobotsTXT = true
   name = "Support"
   url = "/support/"
   weight = 6
-[[menu.main]]
-  name = "Wish List"
-  url = "/wishlist/"
-  weight = 7
 
 [markup]
   [markup.goldmark.renderer]

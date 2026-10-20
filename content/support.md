@@ -4,6 +4,8 @@ aliases = ["/support-donate/", "/donate/"]
 toc = true
 +++
 
+🎁 Prefer sending a gift? See my [Wish List](/wishlist/).
+
 [Patreon](#patreon) is the best option if you are looking for one, so jump there — unless you know something even better ;)
 
 ## Patreon
