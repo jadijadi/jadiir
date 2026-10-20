@@ -2,8 +2,8 @@
 //
 // Usage in a page: <div id="wishlist" data-csv="CSV URL" data-currency="$"></div>
 //
-// Sheet columns (header row, any order, case-insensitive; only `name` is required):
-//   name, price, link, link2, image, description, priority, status, category
+// Sheet columns (header row, any order, case- and space-insensitive; only `name` is required):
+//   name, price, link, link2, image, description, priority, status, category, giftedby
 //   priority: high / medium / low (or 1 / 2 / 3)
 //   status:   empty / "available" = wanted, "reserved" = someone is buying it,
 //             "purchased" = already bought (greyed out), "received" = got it
@@ -42,7 +42,7 @@
 
   function toItems(rows) {
     if (!rows.length) return [];
-    const header = rows[0].map((h) => h.trim().toLowerCase());
+    const header = rows[0].map((h) => h.toLowerCase().replace(/\s+/g, ""));
     return rows.slice(1)
       .map((r, index) => {
         const item = { index };
@@ -129,6 +129,12 @@
 
     const title = el("h3", "wl-name", item.name);
     body.appendChild(title);
+
+    if (item.giftedby) {
+      const gifted = el("div", "wl-gifted", "🎁 Gifted by ");
+      gifted.appendChild(el("strong", null, item.giftedby));
+      body.appendChild(gifted);
+    }
 
     const price = formatPrice(item.price);
     if (price) body.appendChild(el("div", "wl-price", price));
