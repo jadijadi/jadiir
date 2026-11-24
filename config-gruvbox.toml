@@ -3,6 +3,7 @@
 
 [params]
   author = "Jadi Mirmirani"
+  subtitle = ""              # empty: overrides the theme's "Theme Demo" in the homepage <title>
   defaultTheme = "dark"      # dark / light (OS + user preference override)
   themeColor = "orange"      # gray red green yellow blue purple aqua orange
   themeContrast = "medium"   # soft medium hard
